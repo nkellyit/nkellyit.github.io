@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+
+		<title>Car Insurance</title>
+
+		<meta name="viewport" content="width=device-width"/>
+
+		<!-- css -->
+		<link rel="stylesheet" href="css/main.css"/>
+		<link rel="stylesheet" href="css/responsive.css" media="screen and (max-width: 900px)"/>
+	
+		<script async src="./javascript/index.js"></script>
+
+	</head>
+	<body>
+
+		<!-- header -->
+		<div class="header">
+			<div class="section-inner">
+				<img src="images/nar_sml.png" alt="NAR logo" />
+			</div>
+		</div><!--/header-->
+
+		<!-- nav -->
+		<div class="nav"><div class="section-inner">
+				<ul class="clearfix">
+					<li><a href="contact_us.html">Contact Us</a></li>
+					<li><a href="travel.html">Travel Insurance</a></li>
+					<li><a href="home_insurance.html">Home Insiurance</a></li>
+					<li><a href="car.html">Car Insurance</a></li>
+					<li><a href="about_us.html">About Us</a></li>
+					<li><a href="index.html">Home</a></li>
+				</ul>
+			</div>
+		</div><!--/nav-->
+
+		<!-- body-content -->
+		<div class="body-content"><div class="section-inner">
+
+
+				<!-- full page -->
+				<div class="ones clearfix">
+					<div class="one-one mobile-collapse">
+						<img src="images/car_banner_img_01.jpg" alt="tropical beach holiday" />
+					</div>
+				</div>
+		
+				<!-- full page -->
+				<div class="ones clearfix">
+					<div class="one-one mobile-collapse">	
+						<h2>Car Insurance Quote</h2>
+						<br/>
+						<form>
+							<fieldset>
+								<legend>Personal Details</legend>
+								<div class="form-group">
+									<label class="control-label">First Name</label>  
+									<div class="col-md-4 inputGroupContainer">
+										<div class="input-group">
+											<input  name="first_name" placeholder="First Name" class="form-control"  type="text"/>
+										</div>
+									</div>
+								</div>
+
+								<!-- Text input-->
+
+								<div class="form-group">
+									<label class="col-md-4 control-label" >Last Name</label> 
+									<div class="col-md-4 inputGroupContainer">
+										<div class="input-group">
+											<input name="last_name" placeholder="Last Name" class="form-control"  type="text"/>
+										</div>
+									</div>
+								</div>
+
+								<!-- Text input-->
+								<div class="form-group">
+									<label class="col-md-4 control-label">E-Mail</label>  
+									<div class="col-md-4 inputGroupContainer">
+										<div class="input-group">
+											<input name="email" placeholder="E-Mail Address" class="form-control"  type="text"/>
+										</div>
+									</div>
+								</div>
+
+								<!-- Text input-->
+								<div class="form-group">
+									<label class="col-md-4 control-label">Date of Birth</label>  
+									<div class="col-md-4 inputGroupContainer">
+										<div class="input-group">
+											<input name="dob" placeholder="DD/MM/YYYY" class="form-control"  type="text"/>
+										</div>
+									</div>
+								</div>
+
+							</fieldset>
+
+							<br/>
+							<fieldset>
+								<legend>Vehicle Details</legend>
+								<label>Vehicle Make</label><br/>
+								<select name="Vehicle Make">
+									<option value="audi">Audi</option>
+									<option value="bmw">BMW</option>
+									<option value="ford">Ford</option>
+									<option value="mazda">Mazda</option>
+									<option value="mercedes">Mercedes</option>
+									<option value="nissan">Nissan</option>
+									<option value="seat">Seat</option>
+									<option value="skoda">Skoda</option>
+									<option value="toyota">Toyota</option>
+									<option value="volkswagen">Volkswagen</option>
+								</select>
+								<br/>
+								<label>Year of Manufacture</label><br/>
+								<select name="year">
+									<option value="2018">2018</option>
+									<option value="2017">2017</option>
+									<option value="2016">2016</option>
+									<option value="2015">2015</option>
+									<option value="2014">2014</option>
+									<option value="2013">2013</option>
+									<option value="2012">2012</option>
+									<option value="2011">2011</option>
+									<option value="2010">2010</option>
+									<option value="before">Before 2010</option>
+								</select>	
+								<br/>
+								<label>Engine Size</label><br/>
+								<select name="cc">
+									<option value="1.0to1.6">1.0L to 1.6L</option>
+									<option value="1.7to2.4">1.7L to 2.4L</option>
+									<option value="2.5">2.5L or higher</option>
+								</select>	
+								<br/>
+								<label>Fuel Type</label><br/>
+								<input type="radio" name="fuel" value="Petrol" checked />Petrol
+								<input type="radio" name="fuel" value="Diesel"/> Diesel
+								<input type="radio" name="fuel" value="Hybrid"/> Hybrid
+							</fieldset>
+
+							<br/>
+							<fieldset>
+								<legend>Driving History</legend>
+								<label> Licence Type </label>
+								<br/>
+								<input type="radio" name="Licence" value="Full Irish UK"/> Full Irish  or UK
+								<input type="radio" name="Licence" value="Full EU"/> Full EU
+								<input type="radio" name="Licence" value="Provisional"/> Provisional 
+
+								<br/>
+								<br/>
+
+								<label> Penalty Points </label>
+								<br/>
+								<input type="radio" name="Penalty" value="none"/> None<br/>
+								<input type="radio" name="Penalty" value="1 to 7"/> 1 to 7<br/>
+								<input type="radio" name="Penalty" value="8 to 11"/> 8 to 11<br/>
+								<br/>
+
+								<label> No Claims discount<br/></label>
+								<select name="No Claims discount">
+									<option value="0 year">None</option>
+									<option value="less">less than 1 year no claims discount</option>
+									<option value="ford">2 years no claims discount</option>
+									<option value="mazda">3 years no claims discount</option>
+									<option value="mercedes">4 years no claims discount</option>
+									<option value="nissan">5 years no claims discount</option>
+									<option value="seat">6 years no claims discount</option>
+									<option value="skoda">7 years no claims discount</option>
+								</select>
+								<br/>
+								<br/>
+								<label>Have you had any claims in the last 5 years?</label>
+								<br/>
+								<input type="radio" name="PP" value="Yes"/>Yes
+								<input type="radio" name="PP" value="No"/>No
+								<br/>
+							</fieldset>
+							<br/>
+							<fieldset>
+								<legend>Your Cover</legend>
+								<label>Cover</label><br/>
+								<input type="radio" name="cover" value="Comp"/>Comprehensive
+								<input type="radio" name="cover" value="TP"/>Third Party<br/>
+								<br/>
+								<label>Optional Extras</label><br/>
+								<input type="checkbox" name="opt1" value="Glass"/>Glass Breakage<br/>
+								<input type="checkbox" name="opt2" value="Break"/>Breakdown Cover<br/>
+								<input type="checkbox" name="opt3" value="Injury"/>Injury<br/>
+								<input type="checkbox" name="opt4" value="Protection"/>No Claims Bonus Protections<br/>
+								<br/>
+								<br/>
+								<!-- Success message -->
+								<div class="alert alert-success" role="alert" id="success_message">Thank you for your Car insurance enquiry, to submit please click button below.  </div>
+								<br/>
+								<!-- Button -->
+								<div class="form-group">
+									<label class="col-md-4 control-label"></label>
+									<div class="col-md-4">
+										
+										<input id="submit" class="btn btn-warning" type="submit" value="Submit for quotation" onclick="confirm('Are you sure?');"/>
+									</div>
+									
+									<br/><input id="go" type="button" value="Print this Car Insurance Quote Page" onclick="window.print();"/>
+								</div>
+							</fieldset>
+
+						</form>	
+
+						
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!--/footer-->
+
+		<div class="nav_footer clearfix">
+			<div class="section-inner-nav-footer">
+				<div class="left-footer-nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about_us.html">About Us</a></li>
+						<li><a href="car.html">Car Insurance</a></li>
+						<li><a href="home_insurance.html">Home Insiurance</a></li>
+						<li><a href="travel.html">Travel Insurance</a></li>
+						<li><a href="contact_us.html">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+
+
+			<div class="section-inner-right-footer">
+				<div class="right-footer-nav">
+					<p>NAR Insurance Limited<br/>
+						Trading as NAR Insurance Limited regulated by<br/>
+						Central Bank of Ireland<br/>
+						Registered office:<br/>
+						Unit 5, NCI Campus<br/> 
+						Dublin, Ireland<br/>
+						Registered in Ireland No: 000000<br/>
+					</p>
+					<p>Date/Time:</p><div id="date"> </div>
+				</div>
+			</div>
+
+		</div>
+
+	</body>
+</html>

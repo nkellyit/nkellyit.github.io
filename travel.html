@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+
+		<title>Travel Insurance</title>
+
+		<meta name="viewport" content="width=device-width"/>
+
+		<!-- css -->
+		<link rel="stylesheet" href="css/main.css"/>
+		<link rel="stylesheet" href="css/responsive.css" media="screen and (max-width: 900px)"/>
+
+		<script async src="./javascript/index.js"></script>
+
+	</head>
+	<body>
+
+		<!-- header -->
+		<div class="header">
+			<div class="section-inner">
+				<img src="images/nar_sml.png" alt="NAR logo" />
+			</div>
+		</div><!--/header-->
+
+		<!-- nav -->
+		<div class="nav"><div class="section-inner">
+				<ul class="clearfix">
+					<li><a href="contact_us.html">Contact Us</a></li>
+					<li><a href="travel.html">Travel Insurance</a></li>
+					<li><a href="home_insurance.html">Home Insiurance</a></li>
+					<li><a href="car.html">Car Insurance</a></li>
+					<li><a href="about_us.html">About Us</a></li>
+					<li><a href="index.html">Home</a></li>
+				</ul>
+			</div>
+		</div><!--/nav-->
+
+		<!-- body-content -->
+		<div class="body-content"><div class="section-inner">
+		
+		
+				<!-- full page -->
+				<div class="ones clearfix">
+					<div class="one-one mobile-collapse">
+						<img src="images/travel_img_01_sml.jpg" alt="tropical beach holiday" />
+					</div>
+				</div>
+
+				<!-- full page -->
+				<div class="ones clearfix">
+					<div class="one-one mobile-collapse">	
+						<h2>Travel Insurance Quote</h2>
+						<br/>
+						<form>
+							<fieldset>
+								<legend>Personal Details</legend>
+								<div class="form-group">
+									<label class="control-label">First Name</label> 
+									<br/>									
+									<input  name="first_name" placeholder="First Name" class="form"  type="text"/>
+								</div>
+
+								<!-- Text input-->
+
+								<div class="form-group">
+									<label class="control-label">Last Name</label> 
+									<br/>									
+									<input  name="last_name" placeholder="Last Name" class="form"  type="text"/>
+								</div>
+
+								<!-- Text input-->
+								<div class="form-group">
+									<label class="control-label">E-Mail</label> 
+									<br/>									
+									<input  name="last_name" placeholder="E-Mail" class="form"  type="text"/>
+								</div>
+
+								<!-- Text input-->
+								<div class="form-group">
+									<label class="date">Date of Birth<br/></label>  
+
+									<input type="date" name="bday">
+
+									</div>
+
+
+								</fieldset>
+								<br/>
+								<fieldset>
+									<legend>Trip Information </legend>
+
+									<label>Trip Type</label><br/>
+									<input type="radio" name="TType" value="Single Trip"/>Single Trip
+									<input type="radio" name="TType" value="Multi-trip"/> Multi-trip
+									<input type="radio" name="TType" value="Business"/> Business
+									<input type="radio" name="TType" value="Backpaker"/> Backpaker
+									<br/>
+									<br/>
+									<!-- Dropdown list-->
+									<label>Destination Zone</label><br/>
+									<select name="Destination Zone">
+										<option value="Europe">Europe</option>
+										<option value="Asia">Asia</option>
+										<option value="North America">North America</option>
+										<option value="South America">South America</option>
+										<option value="Australia">Australia</option>
+										<option value="Worldwide">Worldwide</option>
+									</select>
+									<br/>
+									<br/>
+									<label>Cover Start Date </label><br/>
+									<input type="date" name="bday">
+										<br/>
+										<label>Cover Finish Date</label><br/>
+
+
+										<input type="date" name="bday">
+
+											<br/>
+										</fieldset>
+
+										<br/>
+										<fieldset>
+											<legend>Other Insurance Held</legend>
+											<label> Other Life/health Insurance policies held</label>
+											<br/>
+											<input type="checkbox" name="op1" value="Health Insurance"/>Health Insurance<br/>
+											<input type="checkbox" name="op2" value="Life Insurance"/>Life Insurance<br/>
+											<input type="checkbox" name="op3" value="Sports"/>Sports Insurance<br/>
+											<input type="checkbox" name="op4" value="Professional"/>Professional Insurance <br/>
+											<input type="checkbox" name="op5" value="None"/>None
+
+											<br/>
+											<br/>
+
+											<label> Other Insurers policy held with  </label>
+											<br/>
+											<input type="checkbox" name="option1" value="VHI"/>VHI<br/>
+											<input type="checkbox" name="option2" value="Laya Healthcare"/>Laya Healthcare<br/>
+											<input type="checkbox" name="option3" value="Sports"/>Royal London<br/>
+											<input type="checkbox" name="option4" value="AIG"/>AIG<br/>
+											<input type="checkbox" name="option4" value="Other"/>Other
+										</fieldset>
+										<br/>
+										<fieldset>
+											<legend>Cover Optional Extras</legend>
+											<label>Sports Cover</label><br/>
+											<input type="radio" name="cover" value="Sport"/>Skying
+											<input type="radio" name="cover" value="Sport"/>Sky Diving
+											<input type="radio" name="cover" value="Sport"/>Diving
+											<input type="radio" name="cover" value="Sport"/>Other
+											<input type="radio" name="cover" value="Sport"/>None
+											<br/>
+											<br/>
+											<label>Rental car Insurance cover</label><br/>
+											<input type="radio" name="car cover" value="Required"/>Required
+											<input type="radio" name="cover" value="Not Required"/>Not Required
+											<br/>
+											<br/>
+											<br/>
+											<!-- Success message -->
+											<div class="alert alert-success" role="alert" id="success_message">Thank you for your Travel Insurance enquiry, to submit please click button below.  </div>
+											<br/>
+											<!-- Button -->
+											<div class="form-group">
+												<label class="Button"></label>
+												<div class="Button">
+													<input id="submit" class="btn btn-warning" type="submit" value="Submit for quotation" onclick="confirm('Are you sure?');"/>
+												</div>
+												<br/><input id="go" type="button" value="Print this Travel Insurance Quote Page" onclick="window.print();"/>
+
+											</div>
+										</fieldset>
+
+									</form>	
+
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<!--/footer-->
+
+					<div class="nav_footer clearfix">
+						<div class="section-inner-nav-footer">
+							<div class="left-footer-nav">
+								<ul>
+									<li><a href="index.html">Home</a></li>
+									<li><a href="about_us.html">About Us</a></li>
+									<li><a href="car.html">Car Insurance</a></li>
+									<li><a href="home_insurance.html">Home Insiurance</a></li>
+									<li><a href="travel.html">Travel Insurance</a></li>
+									<li><a href="contact_us.html">Contact Us</a></li>
+								</ul>
+							</div>
+						</div>
+
+
+						<div class="section-inner-right-footer">
+							<div class="right-footer-nav">
+								<p>NAR Insurance Limited<br/>
+									Trading as NAR Insurance Limited regulated by<br/>
+									Central Bank of Ireland<br/>
+									Registered office:<br/>
+									Unit 5, NCI Campus<br/> 
+									Dublin, Ireland<br/>
+									Registered in Ireland No: 000000<br/>
+								</p>
+								<p>Date/Time:</p><div id="date"> </div>
+							</div>
+						</div>
+
+					</div>
+
+				</body>
+			</html>
